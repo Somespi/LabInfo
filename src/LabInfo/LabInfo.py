@@ -1,3 +1,4 @@
+
 from types import ModuleType
 
 
@@ -29,3 +30,6 @@ class LabInfo:
             if getattr(self.lib, '__file__', None):
                 return self.lib.__file__
             raise TypeError('{0} is a built-in module'.format(self.lib))
+        else: 
+            raise SyntaxError(f"{mode} is not a true argument,\nThese are the true arguments:\ndocs\tname\tlocation")
+timeFetcher = LabInfo(time) 
