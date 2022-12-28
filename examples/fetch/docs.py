@@ -1,4 +1,4 @@
-import src.LabInfo.LabInfo #Importing the module
+import LabInfo.src.LabInfo.LabInfo#Importing the module
 
 
 import time #The module to be tested on
