@@ -1,3 +1,10 @@
-import .src.LabInfo.LabInfo #Importing the module
-import discord #The 1st module to be tested on
+import src.LabInfo.LabInfo #Importing the module
+
+
+import time #The module to be tested on
+
+
+discordFetcher = LabInfo(discord) 
+
+print(discordFetcher.fetch(time)) 
 
