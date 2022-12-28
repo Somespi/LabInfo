@@ -4,7 +4,7 @@ import src.LabInfo.LabInfo #Importing the module
 import time #The module to be tested on
 
 
-discordFetcher = LabInfo(discord) 
+discordFetcher = LabInfo(time) 
 
-print(discordFetcher.fetch(time)) 
+print(discordFetcher.fetch("docs")) 
 
