@@ -1,15 +1,13 @@
 from types import ModuleType
 
 
-class LibInfo:
+class LabInfo:
     lib = None
 
     def __init__(self, library):
         """
         :param library: Library class from import and NOT String
         Upsetting the class to attach it with the class
-
-        Learn More In The Official site
         """
         if isinstance(library, ModuleType):
             self.lib = library
